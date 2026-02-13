@@ -2,9 +2,9 @@
 spring:
   datasource:
     driver-class-name: dm.jdbc.driver.DmDriver
-    url: jdbc:dm://10.54.1.76:5236?SCHEMA=APOLLOCONFIGDB
+    url: jdbc:dm://dmdbip:5236?SCHEMA=APOLLOCONFIGDB
     username: SYSDBA
-    password: DMDBA_hust4400
+    password: password
   jpa:
     database-platform: com.ctrip.framework.apollo.common.jpa.DamengDialect
 
